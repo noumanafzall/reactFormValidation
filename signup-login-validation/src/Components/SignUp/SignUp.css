@@ -1,0 +1,35 @@
+.signUp-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgb(21, 21, 143), rgb(201, 59, 201));
+}
+
+form{
+    background-color: #ffffff67;
+    padding: 0 60px;
+    border-radius: 10px;
+    height: 95vh;
+    width: 250px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(220, 215, 224);
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: blueviolet;
+    color: #c4b1b1;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}

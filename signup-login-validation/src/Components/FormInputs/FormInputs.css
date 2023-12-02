@@ -1,0 +1,24 @@
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+label{
+    font-size: 15px;
+    color: #fff;   
+}
+
+input{
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    width: 85%;
+    border: 0.5px solid gray;
+}
+
+span{
+    font: 12px;
+    padding: 2px;
+    color: red;
+}
