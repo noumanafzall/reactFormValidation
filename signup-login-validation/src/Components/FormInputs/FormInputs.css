@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 280px;
+    margin-top: 5px;
 }
 
 label{
@@ -10,15 +11,24 @@ label{
 }
 
 input{
-    padding: 5px;
-    margin: 5px 0;
+    padding: 3px;
+    margin-bottom: 5px;
     border-radius: 5px;
     width: 85%;
     border: 0.5px solid gray;
 }
 
 span{
-    font: 12px;
-    padding: 2px;
+    font: 10px;
+    padding: 1.5px;
     color: red;
+    display: none;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
+
+input:invalid[focused="true"]{
+    border: 1px solid red;
 }
